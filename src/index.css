@@ -1,0 +1,16 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* optional small helpers */
+html { scroll-behavior: smooth; }
+
+/* Example: you can still use layers if you want */
+@layer base {
+  /* base customizations */
+}
+@layer components {
+  /* custom components */
+}
+@layer utilities {
+  /* custom utilities */
+}
